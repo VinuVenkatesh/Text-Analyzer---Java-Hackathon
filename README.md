@@ -1,4 +1,4 @@
-## Boilerplate Repository - Challenge-42 - Text Analyzer - Revisited
+## Boilerplate Repository - Text Analyzer - Java Hackathon
 
 ### Instructions
 Refer the [PROBLEM.md](./PROBLEM.md) file for problem description.
@@ -11,7 +11,7 @@ Refer the [PROBLEM.md](./PROBLEM.md) file for problem description.
 
 3. Navigate to challenge-42-boilerplate folder
 
-    ` cd challenge-42-boilerplate`
+    ` cd cgi-ca-hackathon-boilerplate-master`
 
 4. Check the status of your repository
 

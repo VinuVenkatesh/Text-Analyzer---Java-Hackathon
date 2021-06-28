@@ -1,4 +1,4 @@
-# Problem Statement – Text Analyzer Revisited
+# Problem Statement – Text Analyzer - Java Hackathon
 
 Making lists is a routine activity in our daily lives. During the week we may make a list of things to be purchased over the weekend. Or it may be a list of people we wish to invite for dinner. In its simplest form a list consists of a series of items ordered sequentially. A simple list of names could look like:
 
