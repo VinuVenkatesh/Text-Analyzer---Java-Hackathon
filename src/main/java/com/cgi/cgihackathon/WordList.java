@@ -32,7 +32,7 @@ public class WordList {
 		ArrayList<String> stringListLowerCase;
 		ArrayList<Word> wordObjLowerCaseList = new ArrayList<Word>();
 		String wordsLowerCase = wM.lowerCase(words); //makes the words all lower case
-		wordsLowerCase = wM.replaceAll(wordsLowerCase); //Replaces all characters
+		wordsLowerCase = wM.replaceAll(wordsLowerCase); //Replaces all unwanted characters
 		stringListLowerCase = wM.spaceRemoval(new ArrayList<String>(Arrays.asList(wordsLowerCase.split(" ")))); //Stores array into a list and then removes all empty strings
 		wordObjLowerCaseList = wordListCreation(stringListLowerCase); //Create list of words using above list of strings
 		return wordObjLowerCaseList;
