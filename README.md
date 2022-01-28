@@ -21,7 +21,7 @@ Refer the [PROBLEM.md](./PROBLEM.md) file for problem description.
 
 5. Create a project by name `cgi-ca-java-hackathon-solution` in gitlab. Set the remote origin as given below:
 
-     `git remote add origin <new repo url> .`
+     `git remote add origin <new repo url>`
 
 7. Commit and Push the project to git
 
