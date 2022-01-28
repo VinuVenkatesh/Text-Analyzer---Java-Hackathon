@@ -6,7 +6,7 @@ import java.io.IOException;
 
 public class FileReading {
 
-	String fReader(String fileName) throws IOException{
+	String fReader(String fileName) throws IOException {
 		BufferedReader bR = new BufferedReader(new FileReader(fileName));
 		String read = bR.readLine();
 		String words = "";
@@ -17,6 +17,5 @@ public class FileReading {
 		bR.close();
 		return words;
 	}
-	
 
 }

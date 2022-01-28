@@ -12,12 +12,12 @@ public class WordsManipulation {
 		words = words.replace("-", " ");
 		return words;
 	}
-	
+
 	String lowerCase(String words) {
 		return words.toLowerCase();
 	}
-	
-	ArrayList<String> spaceRemoval(ArrayList<String> stringList){
+
+	ArrayList<String> spaceRemoval(ArrayList<String> stringList) {
 		boolean space = false;
 		space = stringList.remove("");
 		while (space) {

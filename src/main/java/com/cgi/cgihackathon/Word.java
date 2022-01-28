@@ -18,7 +18,7 @@ public class Word {
 
 	@Override
 	public String toString() {
-		return "Word= " + word + ", Occurences= " + occurences + ", Size= " + size;
+		return "Word = " + word + ", Occurences = " + occurences + ", Size = " + size;
 	}
 
 	public String getWord() {
