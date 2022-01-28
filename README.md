@@ -3,25 +3,25 @@
 ### Instructions
 Refer the [PROBLEM.md](./PROBLEM.md) file for problem description.
 
-#### To use this as a boilerplate for your assignment, please follow these steps
+#### To work on this assignment, please follow these steps
 
-1. **FORK** this repository in your Gitlab account
+1. **CLONE** the Boilerplate Repository - Text Analyzer - Java Hackathon, containing the boilerplate (data and problem statement) in your local machine.
 
-2. **CLONE** the forked repository, containing the boilerplate in your local machine
+2. Create a maven project and implement the solution as per the instructions given in the problem.md. Use the data file provided with the Text Analyzer boilerplate repository
 
-3. Navigate to challenge-42-boilerplate folder
+3. Navigate to the project folder in git bash.
 
-    ` cd cgi-ca-hackathon-boilerplate-master`
+4. Initialize the project folder as git repository
 
-4. Check the status of your repository
+     `git init`
 
-     `git status`
-
-5. Complete the solution as per the instructions given in problem.md
-
-6. Use the following command to update the index using the current content found in the working tree, to prepare the content staged for the next commit.
+5. Use the following command to update the index using the current content found in the working tree, to prepare the content staged for the next commit.
 
      `git add .`
+
+5. Create a project by name `cgi-ca-java-hackathon-solution` in gitlab. Set the remote origin as given below:
+
+     `git remote add origin <new repo url> .`
 
 7. Commit and Push the project to git
 
@@ -43,6 +43,3 @@ Refer the [PROBLEM.md](./PROBLEM.md) file for problem description.
 ### MENTORS TO BEGIN REVIEW YOUR WORK ONLY AFTER ->
 > - You add the respective Mentor as a Reporter/Master into your Assignment Repository
 > - Intimate your Mentor on Slack and/or Send an Email to learner.support@stackroute.in - with your Git URL - Once you done working and is ready for final submission.
-
-
-
