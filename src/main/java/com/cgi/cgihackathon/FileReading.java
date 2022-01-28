@@ -4,6 +4,7 @@ import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 
+//Reads the file into a string
 public class FileReading {
 
 	String fReader(String fileName) throws IOException {

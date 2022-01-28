@@ -2,6 +2,7 @@ package com.cgi.cgihackathon;
 
 import java.util.Comparator;
 
+//Comparator to sort by frequency 
 public class FrequencyOrderComparator implements Comparator<Word> {
 
 	public int compare(Word o1, Word o2) {

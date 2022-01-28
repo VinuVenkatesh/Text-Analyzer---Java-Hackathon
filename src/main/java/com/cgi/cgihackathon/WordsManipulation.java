@@ -4,6 +4,7 @@ import java.util.ArrayList;
 
 public class WordsManipulation {
 
+	//Replaces all unwanted characters from string
 	String replaceAll(String words) {
 		words = words.replace(",", " ");
 		words = words.replace(":", " ");
@@ -13,10 +14,12 @@ public class WordsManipulation {
 		return words;
 	}
 
+	//Converts String to lower case
 	String lowerCase(String words) {
 		return words.toLowerCase();
 	}
 
+	//Replaces empty spaces in the list of strings
 	ArrayList<String> spaceRemoval(ArrayList<String> stringList) {
 		boolean space = false;
 		space = stringList.remove("");
